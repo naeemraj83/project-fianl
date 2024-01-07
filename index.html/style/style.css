@@ -10,7 +10,7 @@ body{
     color: #181818;
 }
 .b-primary{
-    border-radius: 5px;
+    border-radius: 4px;
     background: #fd6e0a;
     color: white;
     font-size: 15px;
@@ -27,6 +27,7 @@ nav{
 nav{
     display: flex;
     font-family: ;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -50,3 +51,37 @@ nav a{
     color: 
     #474747;
 }
+
+/* header style*/
+
+.header{
+    background-color: rgb(247, 236, 222);
+    background-image: url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:400px;
+}
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+.banner .porfolio-photo{
+    width: 500px ; 
+    background-position: bottom right;
+
+}
+.banner-gr{
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+
